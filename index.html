@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gcsevision</title>
+    <link rel="stylesheet" href="main.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grandstander:ital,wght@1,300&display=swap">
+    <script src="https://kit.fontawesome.com/7529937be0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="index.html"><img src="img/taalpwbp.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Past Papers</a></li>
+                <li><a href="">Maths Gcse</a></li>
+                <li><a href="">GCSE/ IGCSE</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Smash GCSE's</h1>
+            <p>Now lets get you going with everything you will need to smash your gcse's</p>
+            <a href="https://www.mathsgenie.co.uk/gcse.html" class="hero-btn">Maths</a>
+
+        </div>
+
+    </section>
+
+    <!-- course -->
+    <section class="course">
+        <h1>The Advice You Need</h1>
+        <p>This section will tell you exactly what you need to know to smash your GCSE's from what websites are the best to the best learning techiques based on science and to principles that will help you achieve those 9s.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Websites</h3>
+                <p>Ok so obviously there are the two main websites for revising one being www.mathsgenie.com which is just for maths revision i recomend going through all the Gcse revision especially from grade 5 and above. Now           www.physicsandmathstutor.com have a lot of papers for you obviously im going to put them papers here aswell but their always a good site to have a look at here and there.</p>
+            </div>
+            <div class="course-col">
+                <h3>Techiques</h3>
+                <p>Now spaced repetition is the best techique by far Jogging your memory is amazing now this is what i recomend. 5 piles of flashcards with the first pile being 1 day, the second pile being 2 days, the third pile being 1 week, the 4th pile being 2 weeks, and the 5th pile being 1 month. If you get any flashcard wrong it goes straing to 1 day again. So based on in which pile you put it in that how long you have to wait till you do it again. Another one is the loki techique one of my favourites you go through your room and asign pieces of information to different objects and you paint that image in your head shakespear used to use this techique to get his actors to memorise lines. To take it a step futher you can make a crazy story about the objects that you will remember by repeating it and by doing so you can jog your memory on what you initially put meaning on them.</p>
+            </div>
+            <div class="course-col">
+                <h3>Principles</h3>
+                <p>
+                    <ul>
+                        <li>7 hours of sleep minimum, you will be more energised and ready to learn.</li>
+                        <li>Plan your day on the calender app on your phone. I know its hard to stick to but you got this.</li>
+                        <li>Try the cornell note taking method at school. You split your page up into 3 sections on the left for questions on the right for notes and on the bottom for a summary of your notes.</li>
+                        <li>Exercise helps keep the brain active and its very good for your health so embark in some exercise</li>
+                        <li>Try to use your phone as little as possible if you get to 60mins per day i rate you thats what im trying to do too.</li>
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- campus -->
+    <section class="campus">
+        <h1>Some great resources</h1>
+        <p>These are some resources that will help you out</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="/img/maths.jpg" alt="maths">
+                <div class="layer">
+                    <h3><a href="https://www.mathsgenie.co.uk/gcse.html">MATHS</a></h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/img/science.jpg" alt="science">
+                <div class="layer">
+                    <h3><a href="https://www.physicsandmathstutor.com/past-papers/gcse-science/">SCIENCE</a></h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/img/humanities.jpg" alt="humanities">
+                <div class="layer">
+                    <h3><a href="https://www.youtube.com/playlist?list=PLkafMRYyE9DFBUl11F1MrgzpBBrLUH9oz">Spanish</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hope you can get all the information you need from this </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/valentin.lita.1232/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/valentinlita18"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/valentinlita18/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UC7amsTplJP7YTl8wR4ZwF3Q"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Ionut-Valentin Lita</p>
+    </section>
+    
+
+
+
+
+<!-- Javascript section -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
